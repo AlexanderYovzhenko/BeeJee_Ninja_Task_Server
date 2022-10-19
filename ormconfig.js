@@ -1,11 +1,11 @@
 const config = {
   type: 'postgres',
-  url: 'postgres://hdfolegpqredna:df49e88726d7dc062ac506af009ff14908ffbabc96f5d1884869d8e138bab00e@ec2-34-247-72-29.eu-west-1.compute.amazonaws.com:5432/d17too5mdv73e3',
-  host: 'ec2-34-247-72-29.eu-west-1.compute.amazonaws.com',
+  url: 'postgres://zmbbijlykgzhzt:bceba28eed69c0bf07bde1a92a7f6040eaf46bf2014ef742e2be8c3ca7cf7ffa@ec2-54-76-105-132.eu-west-1.compute.amazonaws.com:5432/d522gh2mv15d89',
+  host: 'ec2-54-76-105-132.eu-west-1.compute.amazonaws.com',
   port: 5432,
-  username: 'hdfolegpqredna',
-  password: 'df49e88726d7dc062ac506af009ff14908ffbabc96f5d1884869d8e138bab00e',
-  database: 'd17too5mdv73e3',
+  username: 'zmbbijlykgzhzt',
+  password: 'bceba28eed69c0bf07bde1a92a7f6040eaf46bf2014ef742e2be8c3ca7cf7ffa',
+  database: 'd522gh2mv15d89',
   synchronize: true,
   entities: ['src/model.js'],
   ssl: {
